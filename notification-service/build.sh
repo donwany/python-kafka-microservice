@@ -1,5 +1,5 @@
 #!/bin/bash
 
 docker login
-docker build --tag worldbosskafka/notification:v1.0.0 . -f Dockerfile
-docker push worldbosskafka/notification:v1.0.0
+docker build --tag rokiis1/notification:v1.0.0 . -f Dockerfile
+docker push rokiis1/notification:v1.0.0
